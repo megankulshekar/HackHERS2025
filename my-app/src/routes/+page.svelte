@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> HomePage </title>
+
+body{
+	font-family: 'Marcellus", serif;
+}
+
+</head>
+<body>
 <h1>Women in Tech</h1>
 
 <nav>
@@ -17,3 +28,6 @@
 <h1>home</h1>
 <p>this is the home page.</p>
 
+</body>
+
+</html>
