@@ -3,10 +3,6 @@
 <head>
 <title> HomePage </title>
 
-body{
-	font-family: 'Marcellus", serif;
-}
-
 </head>
 <body>
 <h1>Women in Tech</h1>
