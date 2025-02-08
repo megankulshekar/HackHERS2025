@@ -4,7 +4,7 @@
 <nav>
 	<a href="/">home</a>
 	<a href="/about">about</a>
-    <a href="/backend">backend</a>
+    <a href="/signup">signup</a>
 </nav>
 
 <h1>home</h1>
