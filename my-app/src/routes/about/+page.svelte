@@ -89,7 +89,7 @@
                 <p>Explore how artificial intelligence is shaping industries and what to expect in the coming years.</p>
                 <div class="meta">
                     <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Author">
-                    <span>Alex Johnson - AI Researcher</span>
+                    <span>Revati Ghanekar - AI Researcher</span>
                 </div>
             </div>
         </div>
@@ -102,7 +102,7 @@
                 <p>Discover essential cybersecurity practices to keep your personal and professional data safe from hackers.</p>
                 <div class="meta">
                     <img src="https://www.bootdey.com/img/Content/avatar/avatar4.png" alt="Author">
-                    <span>Emily Carter - Security Analyst</span>
+                    <span>Megan Kulshekar - Security Analyst</span>
                 </div>
             </div>
         </div>
@@ -115,7 +115,20 @@
                 <p>Learn the basics of machine learning and how it is revolutionizing the field of data science.</p>
                 <div class="meta">
                     <img src="https://www.bootdey.com/img/Content/avatar/avatar5.png" alt="Author">
-                    <span>Michael Smith - ML Engineer</span>
+                    <span>Mahima Ragupati - ML Engineer</span>
+                </div>
+            </div>
+        </div>
+
+        <div class = "blog-post">
+            <img src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2021_12_Programming-vs-Web-Development.jpg" alt="Blog Image">
+            <div class="blog-content">
+                <p class="meta">Apr 20, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Web Development</span></p>
+                <h2>Building Modern Web Applications</h2>
+                <p>Explore the latest web development technologies and frameworks to create responsive and dynamic web applications.</p>
+                <div class="meta">
+                    <img src="https://www.bootdey.com/img/Content/avatar/avatar6.png" alt="Author">
+                    <span>Mekhiah Chapman - Web Developer</span>
                 </div>
             </div>
         </div>
