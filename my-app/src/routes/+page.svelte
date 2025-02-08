@@ -1,18 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-h1 {
-	color:rgb(138, 92, 191);
-	text-align: center; 
-}
 
-</style>
-</head>
-
-<body>
 <h1>Women in Tech</h1>
 
 <nav>
@@ -33,5 +20,4 @@ h1 {
 <p>this is the home page.</p>
 
 
-</body>
 </html> 
