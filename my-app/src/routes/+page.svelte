@@ -11,5 +11,4 @@
 <button type="button" class="btn btn-primary mr-xs mb-sm">home</button>
 <button type="button" class="btn btn-secondary mr-xs mb-sm">about</button>
 <button type="button" class="btn btn-tertiary mr-xs mb-sm">backend</button>
-</body>
 
