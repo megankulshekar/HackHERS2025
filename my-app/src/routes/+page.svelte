@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title> HomePage </title>
 
-</head>
-<body>
 <h1>Women in Tech</h1>
 
 <nav>
@@ -19,4 +13,3 @@
 <button type="button" class="btn btn-tertiary mr-xs mb-sm">backend</button>
 </body>
 
-</html>
