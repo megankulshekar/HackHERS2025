@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<body>
 <style>
 h1 {
 	color:rgb(138, 92, 191);
@@ -12,15 +11,14 @@ h1 {
 
 </style>
 </head>
-</body>
 
-
+<body>
 <h1>Women in Tech</h1>
 
 <nav>
 	<a href="/">home</a>
 	<a href="/about">about</a>
-    <a href="/backend">backend</a>
+    <a href="/signup">signup</a>
 </nav>
 
 
@@ -35,5 +33,5 @@ h1 {
 <p>this is the home page.</p>
 
 
-
+</body>
 </html> 
