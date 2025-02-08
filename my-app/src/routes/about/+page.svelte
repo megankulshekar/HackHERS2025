@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Page</title>
+    <title>CS Blog Page</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
         body {
@@ -71,37 +71,55 @@
     </style>
 </head>
 <body>
+    <nav>
+        <a href="/">home</a>
+    </nav>
+
     <div class="container">
         <div class="blog-header">
-            <h1>From the Blog</h1>
-            <p>Learn how to grow your business with our expert advice.</p>
+            <h1>CS Insights</h1>
+            <p>Stay updated with the latest trends in Computer Science and Technology.</p>
         </div>
         
         <div class="blog-post">
-            <img src="https://www.bootdey.com/image/400x300/FFB6C1/000000" alt="Blog Image">
+            <img src="https://s3.amazonaws.com/msoe/files/callouts/wide_xlrg_computer-science-landing-page.jpg" alt="Blog Image">
             <div class="blog-content">
-                <p class="meta">Mar 16, 2020 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Marketing</span></p>
-                <h2>Boost your conversion rate</h2>
-                <p>Discover how to optimize your website and increase your conversion rates with proven strategies.</p>
+                <p class="meta">Jan 25, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Artificial Intelligence</span></p>
+                <h2>The Future of AI: Trends and Predictions</h2>
+                <p>Explore how artificial intelligence is shaping industries and what to expect in the coming years.</p>
                 <div class="meta">
-                    <img src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="Author">
-                    <span>Michael Foster - Co-Founder / CTO</span>
+                    <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Author">
+                    <span>Alex Johnson - AI Researcher</span>
                 </div>
             </div>
         </div>
 
         <div class="blog-post">
-            <img src="https://www.bootdey.com/image/400x300/87CEFA/000000" alt="Blog Image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Computer_science_and_engineering.jpg/440px-Computer_science_and_engineering.jpg" alt ="download icon"/>
             <div class="blog-content">
-                <p class="meta">Mar 10, 2020 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Sales</span></p>
-                <h2>How to use search engine optimization to drive sales</h2>
-                <p>Learn how SEO can help drive traffic to your website and boost sales for your business.</p>
+                <p class="meta">Feb 5, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Cybersecurity</span></p>
+                <h2>How to Protect Your Data Online</h2>
+                <p>Discover essential cybersecurity practices to keep your personal and professional data safe from hackers.</p>
                 <div class="meta">
-                    <img src="https://www.bootdey.com/img/Content/avatar/avatar2.png" alt="Author">
-                    <span>Lindsay Walton - Front-end Developer</span>
+                    <img src="https://www.bootdey.com/img/Content/avatar/avatar4.png" alt="Author">
+                    <span>Emily Carter - Security Analyst</span>
                 </div>
             </div>
         </div>
+
+        <div class="blog-post">
+            <img src="https://snit.edu.in/wp-content/uploads/2023/08/computer-science-engineering-1536x1024.jpg" alt="Blog Image">
+            <div class="blog-content">
+                <p class="meta">Mar 15, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Machine Learning</span></p>
+                <h2>Introduction to Machine Learning</h2>
+                <p>Learn the basics of machine learning and how it is revolutionizing the field of data science.</p>
+                <div class="meta">
+                    <img src="https://www.bootdey.com/img/Content/avatar/avatar5.png" alt="Author">
+                    <span>Michael Smith - ML Engineer</span>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
