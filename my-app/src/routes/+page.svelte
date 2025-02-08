@@ -9,3 +9,8 @@
 
 <h1>home</h1>
 <p>this is the home page.</p>
+
+<button type="button" class="btn btn-primary mr-xs mb-sm">Primary</button>
+<button type="button" class="btn btn-secondary mr-xs mb-sm">Secondary</button>
+<button type="button" class="btn btn-tertiary mr-xs mb-sm">Tertiary</button>
+<button type="button" class="btn btn-quaternary mr-xs mb-sm">Quaternary</button>
