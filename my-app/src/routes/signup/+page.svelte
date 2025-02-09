@@ -7,10 +7,33 @@
 	let major = '';
 	let isMentor = false;
 
-	function handleSubmit(event: Event) {
+	async function handleSubmit(event: Event) {
 		event.preventDefault();
 
-		console.log({ username, password, firstName, lastName, university, major, isMentor });
+		const userData = {
+			firstName,
+			lastName,
+			university,
+			major,
+			isMentor
+		};
+
+		const response = await fetch('/api/signup', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(userData)
+		});
+
+		const result = await response.json();
+		console.log(result);
+
+		if (response.ok) {
+			alert('Sign up successful!');
+		} else {
+			alert(result.error || 'Sign up failed.');
+		}
 	}
 </script>
 
@@ -96,6 +119,7 @@
 		padding: 5px;
 	}
 </style>
+
 <nav class="navbar">
 	<a class="navbar-brand" href="#">Articles</a>
 	<ul class="navbar-nav">
