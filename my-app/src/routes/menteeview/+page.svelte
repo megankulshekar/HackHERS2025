@@ -1,20 +1,5 @@
 <script>
     import { goto } from "$app/navigation";
-    import { onMount } from "svelte";
-    import type { Mentee } from "$lib/types";
-
-    let mentees: Mentee[] = [];
-    onMount(async () => {
-        const response = await fetch("/api/menteeview");
-        const data = await response.json();
-        mentees = data;
-
-        if (response.ok) {
-            mentees = data.mentees;
-        } else {
-            console.error(data.error);
-        }
-    });
 
     function handleSelect() {
         goto("/confirmation");
@@ -176,28 +161,6 @@
             <h2>Computer Science</h2>
             <p class="desc">I am a graduate from Rutgers University-New Brunswick and majored in 
                 Computer Science. Feel free to connect with me and sign up to talk!
-            </p>
-            <div class="meta">
-                <a href="https://www.linkedin.com/company/example" target="_blank">LinkedIn Profile</a>
-            </div>
-            <button on:click={handleSelect}>Select</button>
-        </div>
-    </div>
-
-    <div class="mentor-box">
-        <!-- Left Section: Profile Picture + Name -->
-        <div class="mentor-left">
-            <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Flora Miller">
-            <h2>{mentees.firstName} {mentees.lastName}</h2>
-        </div>
-    
-        <!-- Right Section: Description -->
-        <div class="mentor-right">
-            <p class="desc">
-                Major: {mentees.major}
-            </p>
-            <p class="desc">
-                University: {mentees.university}
             </p>
             <div class="meta">
                 <a href="https://www.linkedin.com/company/example" target="_blank">LinkedIn Profile</a>
