@@ -26,6 +26,10 @@
 			font-family: 'Marcellus', serif;
 			background-color: #d0bfe2;
 			color: #333;
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-top: 0px;
+			margin-bottom: 50px;
 	}
 
 	p {
@@ -53,7 +57,7 @@
             display: flex;
         }
         .nav-item {
-            margin: 0 15px;
+            margin: 10px 15px; 
         }
         .nav-link {
             color: white !important;
@@ -64,6 +68,7 @@
         .nav-link:hover {
             text-decoration: underline;
         }
+
 	button {
 		background-color: #876BD4;
 		font-family: 'Marcellus', serif;
@@ -80,7 +85,7 @@
 		margin: auto;
 		margin-top: 50px;
 		padding: 20px;
-		border-radius: 10px;
+		border-radius: 5px;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		background-color: #F5F5F5;
