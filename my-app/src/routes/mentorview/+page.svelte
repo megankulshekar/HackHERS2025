@@ -18,40 +18,47 @@
 </svelte:head>
 
 <style>
-        /* Navbar */
-        .navbar {
-        background-color: #876BD4 !important;
-        padding: 15px 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .navbar-brand {
-        font-size: 1.5rem;
-        color: white !important;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    .navbar-nav {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-    }
-    .nav-item {
-        margin: 0 15px;
-    }
-    .nav-link {
-        color: white !important;
-        text-decoration: none;
-        font-size: 1rem;
-        transition: 0.3s;
-    }
-    .nav-link:hover {
-        text-decoration: underline;
-    }
+            /* Navbar */
+            .navbar {
+    background-color: #583d68 !important;
+    padding: 15px 5px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Make it stick */
+    top: 0; /* Align it to the top */
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+        .navbar-brand {
+            font-size: 1.5rem;
+            color: white !important;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar-nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav-item {
+            margin: 0 15px;
+        }
+        .nav-link {
+            color: white !important;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: 0.3s;
+            padding: 25px;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
     footer {
-                background: #876BD4;
+                background: #583d68;
                 color: white;
                 text-align: center;
                 padding: 2rem 0;
@@ -80,18 +87,19 @@
     .tab {
         padding: 10px 20px;
         cursor: pointer;
-        background-color: #876BD4;
+        background-color: #583d68;
         color: white;
         border: none;
         border-radius: 5px;
         margin: 0 5px;
+        margin-top: 50px;
         transition: background-color 0.3s;
     }
     .tab.active {
-        background-color: #5a3ea1;
+        background-color: #583d68;
     }
     button {
-        background-color: #876BD4;
+        background-color: #583d68;
         font-family: 'Marcellus', serif;
         color: white;
         border: none;
@@ -115,6 +123,7 @@
         background: #f9f9f9;
         max-width: 900px;
         margin-bottom: 20px;
+        margin-top: auto;
     }
     .mentor-left {
         display: flex;
@@ -182,6 +191,7 @@
         height: 100px;
         border-radius: 50%;
         margin-bottom: 10px;
+        padding: 10px;
     }
     /* Right Section */
     .mentor-right {
@@ -189,7 +199,7 @@
     }
     .meta a {
         text-decoration: none;
-        color: #0073b1; /* LinkedIn Blue */
+        color: #583d68; /* LinkedIn Blue */
         font-weight: bold;
     }
     .meta a:hover {
@@ -197,7 +207,7 @@
     }
 </style>
 <nav class="navbar">
-    <a class="navbar-brand" href="#">Mentees</a>
+    <a class="navbar-brand" href="#">Mentor View</a>
     <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
     </ul>
@@ -212,18 +222,38 @@
             <!-- Left Section: Profile Picture + Name -->
             <div class="mentor-left">
                 <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Flora Miller">
-                <h2>Sarah Smith</h2>
+               
+                <button on:click={handleSelect}>Accept</button>
             </div>
         
             <!-- Right Section: Description -->
             <div class="mentor-right">
+                <h2>Sarah Smith</h2>
                 <p class="desc">Major: Computer Science
-                <br>
+
                 <p class="desc">Princeton University</p>
                 <div class="meta">
                     <a href="https://www.linkedin.com/company/example" target="_blank">LinkedIn Profile</a>
                 </div>
-                <button on:click={handleSelect}>Accept</button>
+                
+            </div>
+        </div>
+        <div class="mentor-box">
+            <!-- Left Section: Profile Picture + Name -->
+            <div class="mentor-left">
+                <img src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="Flora Miller">
+                
+                <button on:click={handleSelect}>Accept</button>   
+            </div>
+        
+            <!-- Right Section: Description -->
+            <div class="mentor-right">
+                <h2>Jared Lewis</h2>
+                <p class="desc">Major: Computer Science
+                <p class="desc">Penn State University</p>
+                <div class="meta">
+                    <a href="https://www.linkedin.com/company/example" target="_blank">LinkedIn Profile</a>
+                </div>
             </div>
         </div>
         <!-- Add more request boxes as needed -->
@@ -231,12 +261,29 @@
         <div class="mentor-box">
             <!-- Left Section: Profile Picture + Name -->
             <div class="mentor-left">
-                <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Flora Miller"> 
+                <img src="https://www.bootdey.com/img/Content/avatar/avatar2.png" alt="Flora Miller"> 
             </div>
         
             <!-- Right Section: Description -->
             <div class="mentor-right">
-                <h2>Jennifer Thompson</h2>
+                <h2>Alan Thompson</h2>
+                <p class="desc">Major: Computer Science
+                <br>
+                <p class="desc">University: Rutgers University-New Brunswick</p>
+                <div class="meta">
+                    <a href="https://www.linkedin.com/company/example" target="_blank">LinkedIn Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="mentor-box">
+            <!-- Left Section: Profile Picture + Name -->
+            <div class="mentor-left">
+                <img src="https://www.bootdey.com/img/Content/avatar/avatar5.png" alt="Flora Miller"> 
+            </div>
+        
+            <!-- Right Section: Description -->
+            <div class="mentor-right">
+                <h2>Mason Jefferson</h2>
                 <p class="desc">Major: Computer Science
                 <br>
                 <p class="desc">University: Rutgers University-New Brunswick</p>

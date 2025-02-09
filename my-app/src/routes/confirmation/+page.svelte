@@ -52,7 +52,7 @@
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
-    padding: 0 30px; /* Adjust padding */
+    padding: 50px;
     height: 60px; /* Make it the same height as navbar */
     display: flex;
     align-items: center; /* Center vertically */
