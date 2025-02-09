@@ -19,6 +19,7 @@
 	    <a href="/articles">articles</a>
         <a href="/signup">signup</a>
 		<a href="mentorship"> mentorship</a>
+        <a href="/jobs">jobs</a>
 		 </nav>
 		<h1>Women in Tech</h1>
 
