@@ -28,8 +28,7 @@
 
             /* Navbar */
             .navbar {
-            background-color: #876BD4 !important;
-            /*color: #876BD4;*/
+            background-color: #583d68 !important;
             padding: 15px 20px;
             display: flex;
             justify-content: space-between;
@@ -93,7 +92,7 @@
             }
 
             .btn-custom {
-                background: #876BD4;
+                background: #583d68;
                 color: white;
                 border-radius: 50px;
                 padding: 10px 20px;
@@ -107,7 +106,7 @@
 
             /* Sidebar */
             .card-header {
-                background: #876BD4;
+                background: #583d68;
                 color: white;
                 font-weight: bold;
                 border-radius: 12px 12px 0 0;
@@ -135,7 +134,7 @@
 
             /* Footer */
             footer {
-                background: #876BD4;
+                background: #583d68;
                 color: white;
                 text-align: center;
                 padding: 2rem 0;
