@@ -143,7 +143,7 @@
             <img src="https://s3.amazonaws.com/msoe/files/callouts/wide_xlrg_computer-science-landing-page.jpg" alt="Blog Image">
             <div class="blog-content">
                 <p class="meta">Jan 25, 2025 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Artificial Intelligence</span></p>
-                <h2>The Future of AI: Trends and Predictions</h2>
+                <h2><a href="/articledescription">The Future of AI: Trends and Predictions</a></h2>
                 <p>Explore how artificial intelligence is shaping industries and what to expect in the coming years.</p>
                 <div class="meta">
                     <span>Revati Ghanekar - AI Researcher</span>
@@ -155,7 +155,7 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Computer_science_and_engineering.jpg/440px-Computer_science_and_engineering.jpg" alt ="download icon"/>
             <div class="blog-content">
                 <p class="meta">December 19, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Cybersecurity</span></p>
-                <h2>How to Protect Your Data Online</h2>
+                <h2><a href="/articledescription">How to Protect Your Data Online</a></h2>
                 <p>Discover essential cybersecurity practices to keep your personal and professional data safe from hackers.</p>
                 <div class="meta">
                     <span>Megan Kulshekar - Security Analyst</span>
@@ -167,7 +167,7 @@
             <img src="https://snit.edu.in/wp-content/uploads/2023/08/computer-science-engineering-1536x1024.jpg" alt="Blog Image">
             <div class="blog-content">
                 <p class="meta">October 15, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Machine Learning</span></p>
-                <h2>Introduction to Machine Learning</h2>
+                <h2><a href="/articledescription">Introduction to Machine Learning</a></h2>
                 <p>Learn the basics of machine learning and how it is revolutionizing the field of data science.</p>
                 <div class="meta">
                     <span>Mahima Ragupati - ML Engineer</span>
@@ -179,7 +179,7 @@
             <img src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2021_12_Programming-vs-Web-Development.jpg" alt="Blog Image">
             <div class="blog-content">
                 <p class="meta">August 20, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Web Development</span></p>
-                <h2>Building Modern Web Applications</h2>
+                <h2><a href="/articledescription">Building Modern Web Applications</a></h2>
                 <p>Explore the latest web development technologies and frameworks to create responsive and dynamic web applications.</p>
                 <div class="meta">
                     <span>Mekhiah Chapman - Web Developer</span>

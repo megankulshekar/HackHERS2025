@@ -26,9 +26,11 @@
 	:global(body) {
         font-family: 'Marcellus', serif;
         background-color: rgb(208, 191, 226);
-        background-image: url('https://media3.giphy.com/media/1EOTlC86tfUvQdwg4H/giphy.gif?cid=6c09b9526cm3j5q0swi7xc2m6mnu1a1hyij1u829pbzw67ff&ep=v1_stickers_search&rid=giphy.gif&ct=s');
-        background-size: 25px;
-        background-position: center;
+    }
+    .home-background {
+      background-image: url('https://media3.giphy.com/media/1EOTlC86tfUvQdwg4H/giphy.gif?cid=6c09b9526cm3j5q0swi7xc2m6mnu1a1hyij1u829pbzw67ff&ep=v1_stickers_search&rid=giphy.gif&ct=s');
+      background-size: 25px;
+      background-position: center;
     }
     h1 {
         color:#715a7c;
