@@ -134,6 +134,31 @@
     .meta a:hover {
         text-decoration: underline;
     }
+/* Main content wrapper */
+.main-content {
+    flex: 1; /* Pushes the footer down */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer - sticks to bottom */
+footer {
+    background: #876BD4;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+    margin-top: auto; /* Pushes footer to bottom */
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    opacity: 0.7;
+}
+
 </style>
 
 <nav class="navbar">
@@ -229,3 +254,6 @@
         </div>
     </div>
 </div>
+<footer>
+    <p>&copy; 2025 WINTech. All rights reserved.</p>
+</footer>

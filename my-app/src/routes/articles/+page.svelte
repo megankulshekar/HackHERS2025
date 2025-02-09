@@ -111,6 +111,20 @@
             border-radius: 50%;
             margin-right: 10px;
         }
+                    /* Footer */
+                    footer {
+                background: #876BD4;
+                color: white;
+                text-align: center;
+                padding: 2rem 0;
+                font-size: 0.9rem;
+                margin-top: 50px;
+            }
+
+            footer p {
+                margin: 0;
+                opacity: 0.7;
+            }
     </style>
 </head>
 <body>
@@ -176,5 +190,8 @@
         </div>
 
     </div>
+    <footer>
+        <p>&copy; 2025 WINTech. All rights reserved.</p>
+    </footer>
 </body>
 </html>

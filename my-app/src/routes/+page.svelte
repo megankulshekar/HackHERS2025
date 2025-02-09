@@ -60,6 +60,22 @@
     margin-top: 10px;
     border-radius: 5px;
   } */
+               /* Footer */
+            footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #876BD4;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+            footer p {
+                margin: 0;
+                opacity: 0.7;
+            }
 </style>
 <h1>Women in Tech</h1>
 <h2>Database Connection Status:</h2>
@@ -73,7 +89,6 @@
     <a href="/mentorview">mentor view</a>
     <a href="/jobs">jobs</a>
 </nav> -->
-
   
 <a href="/"><button>home</button></a>
 <a href="/signup"><button>signup</button></a>
@@ -94,3 +109,6 @@
     <p>Curabitur mollis, ante ut venenatis sodales, magna eros sodales eros.</p>
   </div>
 </div>
+<footer>
+  <p>&copy; 2025 WINTech. All rights reserved.</p>
+</footer>

@@ -79,6 +79,20 @@
     h1 {
         color: #5a3ea1;
     }
+                /* Footer */
+                footer {
+                background: #876BD4;
+                color: white;
+                text-align: center;
+                padding: 2rem 0;
+                font-size: 0.9rem;
+                margin-top: 50px;
+            }
+
+            footer p {
+                margin: 0;
+                opacity: 0.7;
+            }
 </style>
 
 <nav class="navbar">
@@ -91,3 +105,6 @@
     <h1>Thank You!</h1>
     <p>You will receive an email confirmation with more details soon.</p>
 </div>
+<footer>
+    <p>&copy; 2025 WINTech. All rights reserved.</p>
+</footer>
