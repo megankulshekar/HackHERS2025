@@ -33,12 +33,9 @@
     }
 </style>
 <h1>Women in Tech</h1>
-<<<<<<< HEAD
 <h2>Database Connection Status:</h2>
   <p>{dbStatus}</p>
 
-=======
->>>>>>> d44e850091552ccef60a88ca710d8095afe8336c
 <nav>
     <a href="/">home</a>
     <a href="/articles">articles</a>
