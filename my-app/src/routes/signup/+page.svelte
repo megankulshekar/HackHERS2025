@@ -5,12 +5,36 @@
 	let lastName = '';
 	let university = '';
 	let major = '';
-	let isMentor = false;
+	let isMentor: boolean = false;
 
-	function handleSubmit(event: Event) {
+	
+	async function handleSubmit(event: Event) {
 		event.preventDefault();
 
-		console.log({ username, password, firstName, lastName, university, major, isMentor });
+		const userData = {
+			firstName,
+			lastName,
+			university,
+			major,
+			isMentor
+		};
+
+		const response = await fetch('/api/signup', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(userData)
+		});
+
+		const result = await response.json();
+		console.log(result);
+
+		if (response.ok) {
+			alert('Sign up successful!');
+		} else {
+			alert(result.error || 'Sign up failed.');
+		}
 	}
 </script>
 
@@ -26,11 +50,48 @@
 			font-family: 'Marcellus', serif;
 			background-color: #d0bfe2;
 			color: #333;
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-top: 0px;
+			margin-bottom: 50px;
 	}
 
 	p {
 		margin-bottom: 5px;
 	}
+                    /* Navbar */
+                    .navbar {
+            background-color: #876BD4 !important;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+			margin-top: 0%;
+            align-items: top;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            color: white !important;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar-nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav-item {
+            margin: 10px 15px; 
+        }
+        .nav-link {
+            color: white !important;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
 
 	button {
 		background-color: #876BD4;
@@ -48,7 +109,7 @@
 		margin: auto;
 		margin-top: 50px;
 		padding: 20px;
-		border-radius: 10px;
+		border-radius: 5px;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		background-color: #F5F5F5;
@@ -60,6 +121,13 @@
 	}
 </style>
 
+<nav class="navbar">
+	<a class="navbar-brand" href="#">Articles</a>
+	<ul class="navbar-nav">
+		<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+	</ul>
+</nav>
+
 <div class="card">
 	<h2>
 		Mentorship Program Sign Up
@@ -68,33 +136,33 @@
 		<p>
 			Username
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={username}/> 
 		<p>
 			Password
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={password}/> 
 		<p>
 			First Name
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={firstName}/> 
 		<p>
 			Last Name
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={lastName}/> 
 		<p>
 			University
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={university}/> 
 		<p>
 			Major
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={major}/> 
 		<p>
 			Are you a mentor or a mentee?
 		</p>
-		<input type="radio" id="yes" name="mentor" value="yes">
+		<input type="radio" id="yes" name="mentor" value="true" bind:group={isMentor}/>
 		<label for="yes">Mentor</label>
-		<input type="radio" id="no" name="mentor" value="no">
+		<input type="radio" id="no" name="mentor" value="false" bind:group={isMentor}>
 		<label for="no">Mentee</label>
 		<br>
 		<button type="submit">

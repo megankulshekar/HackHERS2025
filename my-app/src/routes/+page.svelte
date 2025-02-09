@@ -1,3 +1,21 @@
+<script>
+    import { onMount } from 'svelte';
+  
+    let dbStatus = '';
+  
+    // Use onMount to fetch data only on the client-side
+    onMount(async () => {
+      const response = await fetch("/api/signup");
+      const data = await response.json();
+  
+      if (response.ok) {
+        dbStatus = data.message;
+      } else {
+        dbStatus = data.error;
+      }
+    });
+  </script>
+  
 <svelte:head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
@@ -45,41 +63,15 @@
 
     
 </style>
-
 <h1>Women in Tech</h1>
+<h2>Database Connection Status:</h2>
+  <p>{dbStatus}</p>
 
-<!-- <nav>
+<nav>
     <a href="/">home</a>
     <a href="/articles">articles</a>
     <a href="/signup">signup</a>
-    <a href="mentorship"> mentorship</a>
-</nav> -->
-
-<a href="/">
-    <button>home</button>
-  </a>
-
-  <a href="/articles">
-    <button>articles</button>
-  </a>
-
-  <a href="/signup">
-    <button>signup</button>
-  </a>
-
-  <a href="mentorship">
-    <button>mentorship</button>
-  </a>
-
-  <div class="scroll-container" id="scrollContainer">
-    <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <p>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-      <p>Suspendisse potenti. Sed egestas est in feugiat.</p>
-      <p>Phasellus auctor urna at est sollicitudin interdum.</p>
-      <p>Donec non justo ac purus fringilla ullamcorper at sed urna.</p>
-      <p>Curabitur mollis, ante ut venenatis sodales, magna eros sodales eros.</p>
-    </div>
-  </div>
-
- 
+    <a href="/menteeview"> mentee view</a>
+    <a href="/mentorview">mentor view</a>
+    <a href="/jobs">jobs</a>
+</nav>

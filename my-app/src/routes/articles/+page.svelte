@@ -1,3 +1,8 @@
+<svelte:head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap" rel="stylesheet">
+</svelte:head>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +11,14 @@
     <title>CS Blog Page</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
+        	:global(body) {
+        font-family: 'Marcellus', serif;
+        background-color: rgb(208, 191, 226);
+    }
         body {
-            font-family: Arial, sans-serif;
-            background-color: #d0bfe2;
+
+            font-family: 'Marcellus', serif;
+            background-color: rgb(208, 191, 226);
             margin: 0;
             padding: 0;
         }
@@ -56,6 +66,7 @@
             font-size: 2.5rem;
             color: #212529;
             margin-bottom: 5px;
+
         }
         .blog-header p {
             color: #6c757d;
@@ -123,7 +134,6 @@
                 <h2>The Future of AI: Trends and Predictions</h2>
                 <p>Explore how artificial intelligence is shaping industries and what to expect in the coming years.</p>
                 <div class="meta">
-                    <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Author">
                     <span>Revati Ghanekar - AI Researcher</span>
                 </div>
             </div>
@@ -136,7 +146,6 @@
                 <h2>How to Protect Your Data Online</h2>
                 <p>Discover essential cybersecurity practices to keep your personal and professional data safe from hackers.</p>
                 <div class="meta">
-                    <img src="https://www.bootdey.com/img/Content/avatar/avatar4.png" alt="Author">
                     <span>Megan Kulshekar - Security Analyst</span>
                 </div>
             </div>
@@ -149,7 +158,6 @@
                 <h2>Introduction to Machine Learning</h2>
                 <p>Learn the basics of machine learning and how it is revolutionizing the field of data science.</p>
                 <div class="meta">
-                    <img src="https://www.bootdey.com/img/Content/avatar/avatar5.png" alt="Author">
                     <span>Mahima Ragupati - ML Engineer</span>
                 </div>
             </div>
@@ -162,7 +170,6 @@
                 <h2>Building Modern Web Applications</h2>
                 <p>Explore the latest web development technologies and frameworks to create responsive and dynamic web applications.</p>
                 <div class="meta">
-                    <img src="https://www.bootdey.com/img/Content/avatar/avatar6.png" alt="Author">
                     <span>Mekhiah Chapman - Web Developer</span>
                 </div>
             </div>
