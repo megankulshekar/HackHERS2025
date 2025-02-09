@@ -1,17 +1,13 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
-
     let activeTab: 'requests' | 'currentMentees' = 'requests';
-
     function selectTab(tab: 'requests' | 'currentMentees') {
         activeTab = tab;
     }
-
     function handleSelect() {
         goto("/confirmation");
     }
 </script>
-
 
 <svelte:head>
     <title>Mentorship Page</title>
@@ -22,6 +18,55 @@
 </svelte:head>
 
 <style>
+        /* Navbar */
+        .navbar {
+        background-color: #876BD4 !important;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+        color: white !important;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    .nav-item {
+        margin: 0 15px;
+    }
+    .nav-link {
+        color: white !important;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: 0.3s;
+    }
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+    footer {
+                background: #876BD4;
+                color: white;
+                text-align: center;
+                padding: 2rem 0;
+                font-size: 0.9rem;
+                margin-top: 100px;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+            }
+
+            footer p {
+                margin: 0;
+                opacity: 0.7;
+            }
     :global(body) {
         font-family: 'Marcellus', serif;
         background-color: rgb(208, 191, 226);
@@ -151,12 +196,16 @@
         text-decoration: underline;
     }
 </style>
-
+<nav class="navbar">
+    <a class="navbar-brand" href="#">Mentees</a>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+    </ul>
+</nav>
 <div class="tabs">
     <button class="tab {activeTab === 'requests' ? 'active' : ''}" on:click={() => selectTab('requests')}>Requests</button>
     <button class="tab {activeTab === 'currentMentees' ? 'active' : ''}" on:click={() => selectTab('currentMentees')}>Current Mentees</button>
 </div>
-
 <div class="container">
     {#if activeTab === 'requests'}
         <div class="mentor-box">
@@ -199,3 +248,6 @@
         <!-- Add more current mentee boxes as needed -->
     {/if}
 </div>
+<footer>
+    <p>&copy; 2025 WINTech. All rights reserved.</p>
+</footer>

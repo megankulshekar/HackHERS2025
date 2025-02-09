@@ -22,7 +22,7 @@
 
     }
     button {
-        background-color: #876BD4;
+        background-color: #583d68;
         font-family: 'Marcellus', serif;
         color: white;
         border: none;
@@ -35,7 +35,7 @@
     }
     /* Navbar */
     .navbar {
-        background-color: #876BD4 !important;
+        background-color: #583d68 !important;
         padding: 15px 20px;
         display: flex;
         justify-content: space-between;
@@ -128,16 +128,41 @@
     }
     .meta a {
         text-decoration: none;
-        color: #0073b1; /* LinkedIn Blue */
+        color: #583d68; /* LinkedIn Blue */
         font-weight: bold;
     }
     .meta a:hover {
         text-decoration: underline;
     }
+/* Main content wrapper */
+.main-content {
+    flex: 1; /* Pushes the footer down */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer - sticks to bottom */
+footer {
+    background: #583d68;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+    margin-top: auto; /* Pushes footer to bottom */
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    opacity: 0.7;
+}
+
 </style>
 
 <nav class="navbar">
-    <a class="navbar-brand" href="#">Articles</a>
+    <a class="navbar-brand" href="#">Mentees</a>
     <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
     </ul>
@@ -158,6 +183,7 @@
     
         <!-- Right Section: Description -->
         <div class="mentor-right">
+            <h2>Computer Science</h2>
             <p class="desc">I am a graduate from Rutgers University-New Brunswick and majored in 
                 Computer Science. Feel free to connect with me and sign up to talk!
             </p>
@@ -177,6 +203,7 @@
     
         <!-- Right Section: Description -->
         <div class="mentor-right">
+            <h2>Computer Science</h2>
             <p class="desc">I am a Senior majoring in Computer Science at Rutgers University-New Brunswick. 
                 Feel free to connect with me and sign up to talk!
             </p>
@@ -196,6 +223,7 @@
     
         <!-- Right Section: Description -->
         <div class="mentor-right">
+            <h2>Data Science</h2>
             <p class="desc">I am a graduate from Rutgers University-New Brunswick. I got my bachelor's degree in 
                 Data Science. Feel free to connect with me and sign up to talk!
             </p>
@@ -215,6 +243,7 @@
 
         <!-- Right Section: Description -->
         <div class="mentor-right">
+            <h2>Computer Engineering</h2>
             <p class="desc">I am in my final semester of the Computer Engineering program at Rutgers University-New Brunswick.
             Let's connect and talk!
             </p>
@@ -225,3 +254,6 @@
         </div>
     </div>
 </div>
+<footer>
+    <p>&copy; 2025 WINTech. All rights reserved.</p>
+</footer>

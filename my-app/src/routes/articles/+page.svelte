@@ -23,7 +23,7 @@
             padding: 0;
         }
         .navbar {
-            background-color: #876BD4 !important;
+            background-color: #583d68 !important;
             padding: 15px 20px;
             display: flex;
             justify-content: space-between;
@@ -111,6 +111,18 @@
             border-radius: 50%;
             margin-right: 10px;
         }
+        footer {
+            background: #583d68;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+        footer p {
+            margin: 0;
+            opacity: 0.7;
+        }
     </style>
 </head>
 <body>
@@ -176,5 +188,8 @@
         </div>
 
     </div>
+    <footer>
+        <p>&copy; 2025 WINTech. All rights reserved.</p>
+    </footer>
 </body>
 </html>
