@@ -158,6 +158,7 @@
     
         <!-- Right Section: Description -->
         <div class="mentor-right">
+            <h2>Computer Science</h2>
             <p class="desc">I am a graduate from Rutgers University-New Brunswick and majored in 
                 Computer Science. Feel free to connect with me and sign up to talk!
             </p>
@@ -177,6 +178,7 @@
     
         <!-- Right Section: Description -->
         <div class="mentor-right">
+            <h2>Computer Science</h2>
             <p class="desc">I am a Senior majoring in Computer Science at Rutgers University-New Brunswick. 
                 Feel free to connect with me and sign up to talk!
             </p>
@@ -196,6 +198,7 @@
     
         <!-- Right Section: Description -->
         <div class="mentor-right">
+            <h2>Data Science</h2>
             <p class="desc">I am a graduate from Rutgers University-New Brunswick. I got my bachelor's degree in 
                 Data Science. Feel free to connect with me and sign up to talk!
             </p>
@@ -215,6 +218,7 @@
 
         <!-- Right Section: Description -->
         <div class="mentor-right">
+            <h2>Computer Engineering</h2>
             <p class="desc">I am in my final semester of the Computer Engineering program at Rutgers University-New Brunswick.
             Let's connect and talk!
             </p>

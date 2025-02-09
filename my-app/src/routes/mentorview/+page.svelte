@@ -150,8 +150,45 @@
     .meta a:hover {
         text-decoration: underline;
     }
+        /* Navbar */
+        .navbar {
+        background-color: #876BD4 !important;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+        color: white !important;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    .nav-item {
+        margin: 0 15px;
+    }
+    .nav-link {
+        color: white !important;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: 0.3s;
+    }
+    .nav-link:hover {
+        text-decoration: underline;
+    }
 </style>
-
+<nav class="navbar">
+    <a class="navbar-brand" href="#">Articles</a>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+    </ul>
+</nav>
 <div class="tabs">
     <button class="tab {activeTab === 'requests' ? 'active' : ''}" on:click={() => selectTab('requests')}>Requests</button>
     <button class="tab {activeTab === 'currentMentees' ? 'active' : ''}" on:click={() => selectTab('currentMentees')}>Current Mentees</button>
@@ -175,6 +212,7 @@
                     <a href="https://www.linkedin.com/company/example" target="_blank">LinkedIn Profile</a>
                 </div>
                 <button on:click={handleSelect}>Accept</button>
+                <button on:click={handleSelect}>Reject</button>
             </div>
         </div>
         <!-- Add more request boxes as needed -->

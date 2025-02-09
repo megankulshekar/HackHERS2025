@@ -1,34 +1,93 @@
 <svelte:head>
-		<title>Confirmation</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap" rel="stylesheet">
+    <title>Confirmation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 </svelte:head>
-		
+
 <style>
-	:global(body) {
+    :global(body) {
         font-family: 'Marcellus', serif;
         background-color: #d0bfe2;
         color: #333;
         margin: 0;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100vh;
     }
+
+ /* Navbar Styling */
+.navbar {
+    background-color: #876BD4;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px; /* Ensure fixed height */
+    padding: 0 20px; /* Reduce unnecessary padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Brand Styling */
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 60px; /* Keep it vertically aligned */
+}
+
+/* Spacer to push items */
+.nav-spacer {
+    flex-grow: 1;
+}
+
+/* Home Link Fix */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 30px; /* Adjust padding */
+    height: 60px; /* Make it the same height as navbar */
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+
+    /* Card Styling */
     .card-body {
         background-color: #fff;
-        border-radius: 4px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 30px;
-        margin-top: 20px;
-        max-width: 500px;
-        width: 200%;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        margin-top: 100px; /* Adjusted for navbar spacing */
+        max-width: 400px;
+        width: 90%;
         text-align: center;
+    }
+
+    h1 {
+        color: #5a3ea1;
     }
 </style>
 
+<nav class="navbar">
+    <a class="navbar-brand" href="#">Confirmation</a>
+    <div class="nav-spacer"></div> <!-- Pushes "Home" to the right -->
+    <a class="nav-link" href="/">Home</a>
+</nav>
+
 <div class="card-body">
-    <h1>Thank you!</h1>
+    <h1>Thank You!</h1>
     <p>You will receive an email confirmation with more details soon.</p>
 </div>

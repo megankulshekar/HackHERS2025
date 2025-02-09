@@ -1,0 +1,5 @@
+MONGODB_URI = "mongodb+srv://mahimar0927:QdUvZUBEt8G3zOvR@cluster0.a9itq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = "School"
+NODE_ENV = "development" 
+DEV_URL = "http://localhost:5173/"
+PROD_URL = ""
