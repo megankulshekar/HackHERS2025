@@ -5,8 +5,9 @@
 	let lastName = '';
 	let university = '';
 	let major = '';
-	let isMentor = false;
+	let isMentor: boolean = false;
 
+	
 	async function handleSubmit(event: Event) {
 		event.preventDefault();
 
@@ -135,33 +136,33 @@
 		<p>
 			Username
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={username}/> 
 		<p>
 			Password
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={password}/> 
 		<p>
 			First Name
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={firstName}/> 
 		<p>
 			Last Name
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={lastName}/> 
 		<p>
 			University
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={university}/> 
 		<p>
 			Major
 		</p>
-		<input class="textbox" type="text">
+		<input class="textbox" type="text" bind:value={major}/> 
 		<p>
 			Are you a mentor or a mentee?
 		</p>
-		<input type="radio" id="yes" name="mentor" value="yes">
+		<input type="radio" id="yes" name="mentor" value="true" bind:group={isMentor}/>
 		<label for="yes">Mentor</label>
-		<input type="radio" id="no" name="mentor" value="no">
+		<input type="radio" id="no" name="mentor" value="false" bind:group={isMentor}>
 		<label for="no">Mentee</label>
 		<br>
 		<button type="submit">
