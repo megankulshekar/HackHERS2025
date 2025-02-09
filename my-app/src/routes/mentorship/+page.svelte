@@ -2,7 +2,7 @@
     import { goto } from "$app/navigation";
 
     function handleSelect() {
-        goto("/signup");
+        goto("/confirmation");
     }
 </script>
 
