@@ -26,11 +26,12 @@
 	:global(body) {
         font-family: 'Marcellus', serif;
         background-color: rgb(208, 191, 226);
-        background-size: 25px;
-        background-image: url('https://media3.giphy.com/media/1EOTlC86tfUvQdwg4H/giphy.gif?cid=6c09b9526cm3j5q0swi7xc2m6mnu1a1hyij1u829pbzw67ff&ep=v1_stickers_search&rid=giphy.gif&ct=s');
-        background-position: center;
     }
-    
+    .home-background {
+      background-size: 25px;
+      background-image: url('https://media3.giphy.com/media/1EOTlC86tfUvQdwg4H/giphy.gif?cid=6c09b9526cm3j5q0swi7xc2m6mnu1a1hyij1u829pbzw67ff&ep=v1_stickers_search&rid=giphy.gif&ct=s');
+      background-position: center;
+    }
     h1 {
         color:#715a7c;
         text-align: center; 
@@ -124,6 +125,7 @@
         }
 
 </style>
+<div class="home-background">
 <h1>Women in Tech</h1>
 <!-- <h2>Database Connection Status:</h2> -->
   <p>{dbStatus}</p>
@@ -152,6 +154,7 @@
     <b><h3>Join our Community at WINTech!</h3></b>
     <!-- <a href="#"><button class = "button">Explore</button></a> -->
   </div>
+</div>
 </div>
 
 
