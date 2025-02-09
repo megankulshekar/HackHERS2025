@@ -16,7 +16,7 @@
 	<body>
 		<nav>
 		<a href="/">home</a>
-	    <a href="/about">articles</a>
+	    <a href="/articles">articles</a>
         <a href="/signup">signup</a>
 		<a href="mentorship"> mentorship</a>
 		 </nav>
