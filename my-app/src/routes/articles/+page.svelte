@@ -1,3 +1,8 @@
+<svelte:head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap" rel="stylesheet">
+</svelte:head>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +11,14 @@
     <title>CS Blog Page</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
+        	:global(body) {
+        font-family: 'Marcellus', serif;
+        background-color: rgb(208, 191, 226);
+    }
         body {
-            font-family: Arial, sans-serif;
-            background-color: #d0bfe2;
+
+            font-family: 'Marcellus', serif;
+            background-color: rgb(208, 191, 226);
             margin: 0;
             padding: 0;
         }

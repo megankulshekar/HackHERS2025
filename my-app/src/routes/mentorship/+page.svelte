@@ -13,7 +13,39 @@
             font-family: 'Marcellus', serif;
             background-color: rgb(208, 191, 226);
             margin: 0;
-            padding: 40px;
+
+        }
+                    /* Navbar */
+                    .navbar {
+            background-color: #876BD4 !important;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            color: white !important;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar-nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav-item {
+            margin: 0 15px;
+        }
+        .nav-link {
+            color: white !important;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
         }
         .container {
             max-width: 900px;
@@ -74,8 +106,11 @@
     </style>
 </head>
 <body>
-    <nav>
-        <a href="/">home</a>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">Articles</a>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        </ul>
     </nav>
 
     <div class="container">

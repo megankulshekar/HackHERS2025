@@ -1,6 +1,13 @@
 <!DOCTYPE html>
+<svelte:head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap" rel="stylesheet">
+</svelte:head>
 <html lang="en">
+
     <head>
+        
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="A clean and modern blog layout" />
@@ -13,8 +20,8 @@
         <style>
             /* General Styles */
             body {
-                font-family: 'Poppins', sans-serif;
-                background-color: #d0bfe2;
+                font-family: 'Marcellus', serif;
+            background-color: rgb(208, 191, 226);
                 color: #333;
                 line-height: 1.7;
             }
@@ -144,7 +151,7 @@
     <body>
         <!-- Navbar -->
         <nav class="navbar">
-            <a class="navbar-brand" href="#">Articles</a>
+            <a class="navbar-brand" href="#">Jobs</a>
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
             </ul>
@@ -160,12 +167,12 @@
                         <!-- First Card -->
                         <div class="col-md-6 mb-4">
                             <div class="card" style="width: 24rem;">
-                                <a href="#"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="Blog Image"></a>
+                                <a href="#"><img class="card-img-top" src="https://telecomtalk.info/wp-content/uploads/2023/06/major-us-wireless-carriers-deny-talks-amazon-1200x675.png" alt="Blog Image"></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 1, 2023</div>
-                                    <h2 class="card-title">How to Improve Your Blog Design</h2>
-                                    <p class="card-text">Learn the latest trends in blog design and how you can enhance user experience with simple tweaks.</p>
-                                    <a class="btn btn-custom" href="#">Read more →</a>
+                                    <div class="small text-muted">Posted February 7, 2025</div>
+                                    <h2 class="card-title">Software Engineer</h2>
+                                    <p class="card-text">8 weeks long — Amazon.</p>
+                                    <a class="btn btn-custom" href="#">More Info →</a>
                                 </div>
                             </div>
                         </div>
@@ -173,12 +180,14 @@
                         <!-- Second Card -->
                         <div class="col-md-6 mb-4">
                             <div class="card" style="width: 24rem;">
-                                <a href="#"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="Blog Image"></a>
+                                <a href="#"><img class="card-img-top" src="https://pbs.twimg.com/media/ExbuZ5qWgAMZ1xs?format=png&name=4096x4096" alt="Blog Image"></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 2, 2023</div>
-                                    <h2 class="card-title">Boost Your Website Performance</h2>
-                                    <p class="card-text">Discover techniques to optimize your website’s speed and enhance user experience.</p>
-                                    <a class="btn btn-custom" href="#">Read more →</a>
+                                    <div class="small text-muted">Posted February 2, 2025</div>
+                                    <h2 class="card-title">Data Analyst</h2>
+                                    <p class="card-text">
+                                        10 weeks long — Microsoft.
+                                    </p>
+                                    <a class="btn btn-custom" href="#">More Info →</a>
                                 </div>
                             </div>
                         </div>
@@ -189,12 +198,12 @@
                         <!-- Third Card -->
                         <div class="col-md-6 mb-4">
                             <div class="card" style="width: 24rem;">
-                                <a href="#"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="Blog Image"></a>
+                                <a href="#"><img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlxTFbTK0HMT1XSftKa11d4x7Ks_zTElG6Qw&s" alt="Blog Image"></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 3, 2023</div>
-                                    <h2 class="card-title">Mastering SEO for Bloggers</h2>
-                                    <p class="card-text">Learn the best SEO practices to increase traffic and visibility for your blog.</p>
-                                    <a class="btn btn-custom" href="#">Read more →</a>
+                                    <div class="small text-muted">Posted January 30, 2025</div>
+                                    <h2 class="card-title">Machine Learning</h2>
+                                    <p class="card-text">10 weeks long — Tesla.</p>
+                                    <a class="btn btn-custom" href="#">More Info →</a>
                                 </div>
                             </div>
                         </div>
@@ -202,12 +211,12 @@
                         <!-- Fourth Card -->
                         <div class="col-md-6 mb-4">
                             <div class="card" style="width: 24rem;">
-                                <a href="#"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="Blog Image"></a>
+                                <a href="#"><img class="card-img-top" src="https://thegadgetflow.com/wp-content/uploads/2023/09/Apple-Event-1200x675.jpg" alt="Blog Image"></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 4, 2023</div>
-                                    <h2 class="card-title">Creating Engaging Content</h2>
-                                    <p class="card-text">Discover how to craft compelling blog posts that keep your audience engaged.</p>
-                                    <a class="btn btn-custom" href="#">Read more →</a>
+                                    <div class="small text-muted">Posted January 23, 2025</div>
+                                    <h2 class="card-title">Cybersecurity</h2>
+                                    <p class="card-text">6 weeks long — Apple.</p>
+                                    <a class="btn btn-custom" href="#">More Info →</a>
                                 </div>
                             </div>
                         </div>
@@ -222,7 +231,7 @@
                         <div class="card-header">Search</div>
                         <div class="card-body">
                             <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Enter search term..." />
+                                <input class="form-control" type="text" placeholder="Enter role/company/duration..." />
                                 <button class="btn btn-custom">Go!</button>
                             </div>
                         </div>
@@ -231,9 +240,11 @@
                         <div class="card-header">Categories</div>
                         <div class="card-body">
                             <ul class="list-unstyled">
-                                <li><a href="#" style="color: #6C757D">Web Design</a></li>
-                                <li><a href="#" style="color: #6C757D">HTML & CSS</a></li>
-                                <li><a href="#" style="color: #6C757D">JavaScript</a></li>
+                                <li><a href="#" style="color: #6C757D">Engineering</a></li>
+                                <li><a href="#" style="color: #6C757D">Aerospace</a></li>
+                                <li><a href="#" style="color: #6C757D">Data Science</a></li>
+                                <li><a href="#" style="color: #6C757D">Cybersecurity</a></li>
+                                <li><a href="#" style="color: #6C757D">UI/UX</a></li>
                             </ul>
                         </div>
                     </div>

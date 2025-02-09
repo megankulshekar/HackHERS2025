@@ -31,7 +31,39 @@
 	p {
 		margin-bottom: 5px;
 	}
-
+                    /* Navbar */
+                    .navbar {
+            background-color: #876BD4 !important;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+			margin-top: 0%;
+            align-items: top;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            color: white !important;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar-nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav-item {
+            margin: 0 15px;
+        }
+        .nav-link {
+            color: white !important;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
 	button {
 		background-color: #876BD4;
 		font-family: 'Marcellus', serif;
@@ -59,6 +91,12 @@
 		padding: 5px;
 	}
 </style>
+<nav class="navbar">
+	<a class="navbar-brand" href="#">Articles</a>
+	<ul class="navbar-nav">
+		<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+	</ul>
+</nav>
 
 <div class="card">
 	<h2>
