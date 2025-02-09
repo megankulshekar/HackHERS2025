@@ -1,3 +1,21 @@
+<script>
+    import { onMount } from 'svelte';
+  
+    let dbStatus = '';
+  
+    // Use onMount to fetch data only on the client-side
+    onMount(async () => {
+      const response = await fetch("/api/signup");
+      const data = await response.json();
+  
+      if (response.ok) {
+        dbStatus = data.message;
+      } else {
+        dbStatus = data.error;
+      }
+    });
+  </script>
+  
 <svelte:head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
@@ -16,6 +34,8 @@
 </style>
 
 <h1>Women in Tech</h1>
+<h2>Database Connection Status:</h2>
+  <p>{dbStatus}</p>
 
 <nav>
     <a href="/">home</a>
