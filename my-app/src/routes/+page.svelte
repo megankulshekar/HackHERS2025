@@ -26,12 +26,11 @@
 	:global(body) {
         font-family: 'Marcellus', serif;
         background-color: rgb(208, 191, 226);
+        background-size: 25px;
+        background-image: url('https://media3.giphy.com/media/1EOTlC86tfUvQdwg4H/giphy.gif?cid=6c09b9526cm3j5q0swi7xc2m6mnu1a1hyij1u829pbzw67ff&ep=v1_stickers_search&rid=giphy.gif&ct=s');
+        background-position: center;
     }
-    .home-background {
-      background-image: url('https://media3.giphy.com/media/1EOTlC86tfUvQdwg4H/giphy.gif?cid=6c09b9526cm3j5q0swi7xc2m6mnu1a1hyij1u829pbzw67ff&ep=v1_stickers_search&rid=giphy.gif&ct=s');
-      background-size: 25px;
-      background-position: center;
-    }
+    
     h1 {
         color:#715a7c;
         text-align: center; 
@@ -50,7 +49,8 @@
       box-shadow: 0 4px 3px;
       margin-bottom: 10px;
       margin-top: 50px;
-      border-radius: 20px
+      border-radius: 20px;
+      padding: 15px;
     }
 
     .scroll-container h2 {
@@ -98,6 +98,7 @@
         border: none;
         border-radius: 15px;
         box-shadow: 0 9px #af8abf;
+        font-family: 'Marcellus', serif;
     }
 
     .button:hover {background-color: #38293f}
@@ -133,11 +134,11 @@
 <img src ="https://media3.giphy.com/media/1EOTlC86tfUvQdwg4H/giphy.gif?cid=6c09b9526cm3j5q0swi7xc2m6mnu1a1hyij1u829pbzw67ff&ep=v1_stickers_search&rid=giphy.gif&ct=s"> -->
 
 <div class="button-container">
-<a href="/signup"><button class ="button"> signup</button></a>
-<a href="/articles"><button class = "button">articles</button></a>
-<a href ="/menteeview"><button class = "button">mentee view</button></a>
-<a href="/mentorview"><button class = "button">mentor view</button></a>
-<a href="/jobs"><button class = "button">jobs</button></a>
+<a href="/signup"><button class ="button"> Mentor Signup</button></a>
+<a href ="/menteeview"><button class = "button">Mentee View</button></a>
+<a href="/mentorview"><button class = "button">Mentor View</button></a>
+<a href="/articles"><button class = "button">Articles</button></a>
+<a href="/jobs"><button class = "button">Jobs</button></a>
 </div>
 
 
