@@ -10,11 +10,43 @@
             font-family: Arial, sans-serif;
             background-color: #f4f7f6;
             margin: 0;
-            padding: 40px;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #876BD4 !important;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            color: white !important;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar-nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav-item {
+            margin: 0 15px;
+        }
+        .nav-link {
+            color: white !important;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
         }
         .container {
             max-width: 900px;
             margin: auto;
+            padding: 40px;
         }
         .blog-header {
             text-align: left;
@@ -71,8 +103,11 @@
     </style>
 </head>
 <body>
-    <nav>
-        <a href="/">home</a>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">Articles</a>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        </ul>
     </nav>
 
     <div class="container">
@@ -84,7 +119,7 @@
         <div class="blog-post">
             <img src="https://s3.amazonaws.com/msoe/files/callouts/wide_xlrg_computer-science-landing-page.jpg" alt="Blog Image">
             <div class="blog-content">
-                <p class="meta">Jan 25, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Artificial Intelligence</span></p>
+                <p class="meta">Jan 25, 2025 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Artificial Intelligence</span></p>
                 <h2>The Future of AI: Trends and Predictions</h2>
                 <p>Explore how artificial intelligence is shaping industries and what to expect in the coming years.</p>
                 <div class="meta">
@@ -97,7 +132,7 @@
         <div class="blog-post">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Computer_science_and_engineering.jpg/440px-Computer_science_and_engineering.jpg" alt ="download icon"/>
             <div class="blog-content">
-                <p class="meta">Feb 5, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Cybersecurity</span></p>
+                <p class="meta">December 19, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Cybersecurity</span></p>
                 <h2>How to Protect Your Data Online</h2>
                 <p>Discover essential cybersecurity practices to keep your personal and professional data safe from hackers.</p>
                 <div class="meta">
@@ -110,7 +145,7 @@
         <div class="blog-post">
             <img src="https://snit.edu.in/wp-content/uploads/2023/08/computer-science-engineering-1536x1024.jpg" alt="Blog Image">
             <div class="blog-content">
-                <p class="meta">Mar 15, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Machine Learning</span></p>
+                <p class="meta">October 15, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Machine Learning</span></p>
                 <h2>Introduction to Machine Learning</h2>
                 <p>Learn the basics of machine learning and how it is revolutionizing the field of data science.</p>
                 <div class="meta">
@@ -123,7 +158,7 @@
         <div class = "blog-post">
             <img src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2021_12_Programming-vs-Web-Development.jpg" alt="Blog Image">
             <div class="blog-content">
-                <p class="meta">Apr 20, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Web Development</span></p>
+                <p class="meta">August 20, 2024 • <span style="background:#e0e0e0;padding:5px 10px;border-radius:5px;">Web Development</span></p>
                 <h2>Building Modern Web Applications</h2>
                 <p>Explore the latest web development technologies and frameworks to create responsive and dynamic web applications.</p>
                 <div class="meta">
