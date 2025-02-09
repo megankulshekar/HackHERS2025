@@ -17,9 +17,25 @@
 
 <h1>Women in Tech</h1>
 
-<nav>
+<!-- <nav>
     <a href="/">home</a>
     <a href="/articles">articles</a>
     <a href="/signup">signup</a>
     <a href="mentorship"> mentorship</a>
-</nav>
+</nav> -->
+
+<a href="/">
+    <button>home</button>
+  </a>
+
+  <a href="/articles">
+    <button>articles</button>
+  </a>
+
+  <a href="/signup">
+    <button>signup</button>
+  </a>
+
+  <a href="mentorship">
+    <button>mentorship</button>
+  </a>
