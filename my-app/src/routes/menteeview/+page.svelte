@@ -158,7 +158,15 @@ footer p {
     margin: 0;
     opacity: 0.7;
 }
+.container h1{
+    color:#715a7c;
+    text-shadow: 2px 3px 3px rgb(29, 29, 29);
+}
 
+.container p, .container h2{
+    color: #594d60;
+
+}
 </style>
 
 <nav class="navbar">
