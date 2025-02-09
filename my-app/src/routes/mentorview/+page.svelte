@@ -180,16 +180,22 @@
         opacity: 0.7;
     }
 </style>
+
+
 <nav class="navbar">
-    <a class="navbar-brand" href="#">Articles</a>
+    <a class="navbar-brand" href="#">Mentor View</a>
     <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
     </ul>
 </nav>
-<div class="tabs">
-    <button class="tab {activeTab === 'requests' ? 'active' : ''}" on:click={() => selectTab('requests')}>Requests</button>
-    <button class="tab {activeTab === 'currentMentees' ? 'active' : ''}" on:click={() => selectTab('currentMentees')}>Current Mentees</button>
-</div>
+
+
+<div class="main-wrapper">
+    <div class="container">
+        <div class="blog-header">
+            <h1>Mentorship</h1>
+            <p>Find a mentor that best matches you!</p>
+        </div>
 
         <div class="mentor-box">
             <div class="mentor-left">
@@ -247,3 +253,4 @@
 <footer>
     <p>&copy; 2025 WINTech. All rights reserved.</p>
 </footer>
+    
