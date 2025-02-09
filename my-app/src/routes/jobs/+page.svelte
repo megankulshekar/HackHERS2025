@@ -29,6 +29,7 @@
             /* Navbar */
             .navbar {
             background-color: #876BD4 !important;
+            /*color: #876BD4;*/
             padding: 15px 20px;
             display: flex;
             justify-content: space-between;
