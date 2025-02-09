@@ -18,6 +18,7 @@
 		<a href="/">home</a>
 	    <a href="/about">about</a>
         <a href="/signup">signup</a>
+		<a href="mentorship"> mentorship</a>
 		 </nav>
 		<h1>Women in Tech</h1>
 
