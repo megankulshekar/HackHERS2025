@@ -40,6 +40,7 @@
     <a href="/">home</a>
     <a href="/articles">articles</a>
     <a href="/signup">signup</a>
-    <a href="/mentorship"> mentorship</a>
+    <a href="/menteeview"> mentee view</a>
+    <a href="/mentorview">mentor view</a>
     <a href="/jobs">jobs</a>
 </nav>

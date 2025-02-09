@@ -29,6 +29,6 @@
 </style>
 
 <div class="card-body">
-    <h1>Thank you for selecting a mentor!</h1>
+    <h1>Thank you!</h1>
     <p>You will receive an email confirmation with more details soon.</p>
 </div>
