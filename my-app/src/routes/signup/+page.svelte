@@ -52,83 +52,14 @@
 </svelte:head>
 
 <style>
-	/* Full-page layout */
-	html, body {
-		height: 100%;
-		margin: 0;
-		display: flex;
-		flex-direction: column;
-		font-family: 'Marcellus', serif;
-		background-color: #d0bfe2;
-		color: #333;
+	:global(body) {
+			font-family: 'Marcellus', serif;
+			background-color: #d0bfe2;
+			color: #333;
 	}
-
-	/* Wrapper to create space between navbar, card, and footer */
-	.main-wrapper {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 40px 0; /* Adds space above and below the form */
+	p {
+		margin-bottom: 5px;
 	}
-
-           /* Navbar */
-		   .navbar {
-            background-color: #876BD4 !important;
-            /*color: #876BD4;*/
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .navbar-brand {
-            font-size: 1.5rem;
-            color: white !important;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .navbar-nav {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-        .nav-item {
-            margin: 0 15px;
-        }
-        .nav-link {
-            color: white !important;
-            text-decoration: none;
-            font-size: 1rem;
-            transition: 0.3s;
-        }
-        .nav-link:hover {
-            text-decoration: underline;
-        }
-
-	/* Card Styling */
-	.card {
-		width: 50%;
-		max-width: 500px;
-		background-color: #F5F5F5;
-		padding: 25px;
-		border-radius: 10px;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-		text-align: center;
-		margin-top: 40px;
-		margin-bottom: 40px; /* Space between form and footer */
-	}
-
-	.textbox {
-		width: 100%;
-		padding: 8px;
-		margin: 5px 0;
-		border: 1px solid #ccc;
-		border-radius: 5px;
-	}
-
-	/* Button Styling */
 	button {
 		background-color: #876BD4;
 		font-family: 'Marcellus', serif;
@@ -136,38 +67,26 @@
 		padding: 10px 20px;
 		border: none;
 		border-radius: 5px;
-		cursor: pointer;
 		margin-top: 15px;
-		transition: background-color 0.3s, transform 0.3s;
+		cursor: pointer;
 	}
-
-	button:hover {
-		background-color: #755ac7;
-		transform: scale(1.05);
-	}
-
-	/* Footer stays at bottom with spacing */
-	footer {
-		background: #876BD4;
-		color: white;
+	.card {
+		width: 50%;
+		margin: auto;
+		margin-top: 50px;
+		padding: 20px;
+		border-radius: 2px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 		text-align: center;
-		padding: 1.5rem 0;
-		font-size: 0.9rem;
-		width: 100%;
-		margin-top: auto;
+		background-color: #F5F5F5;
 	}
-
-	footer p {
-		margin: 0;
-		opacity: 0.7;
+	.textbox {
+		width: 50%;
+		padding: 5px;
 	}
 </style>
-<nav class="navbar">
-	<a class="navbar-brand" href="#">Sign Up</a>
-	<ul class="navbar-nav">
-		<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-	</ul>
-</nav>
+
+
 <div class="main-wrapper">
 
 
