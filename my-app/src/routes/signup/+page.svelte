@@ -32,6 +32,13 @@
 
 		if (response.ok) {
 			alert('Sign up successful!');
+			username = '';
+            password = '';
+            firstName = '';
+            lastName = '';
+            university = '';
+            major = '';
+            isMentor = false;
 		} else {
 			alert(result.error || 'Sign up failed.');
 		}
