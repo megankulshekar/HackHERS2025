@@ -22,7 +22,7 @@
 
     }
     button {
-        background-color: #876BD4;
+        background-color: #583d68;
         font-family: 'Marcellus', serif;
         color: white;
         border: none;
@@ -35,7 +35,7 @@
     }
     /* Navbar */
     .navbar {
-        background-color: #876BD4 !important;
+        background-color: #583d68 !important;
         padding: 15px 20px;
         display: flex;
         justify-content: space-between;
@@ -128,7 +128,7 @@
     }
     .meta a {
         text-decoration: none;
-        color: #0073b1; /* LinkedIn Blue */
+        color: #583d68; /* LinkedIn Blue */
         font-weight: bold;
     }
     .meta a:hover {
@@ -145,7 +145,7 @@
 
 /* Footer - sticks to bottom */
 footer {
-    background: #876BD4;
+    background: #583d68;
     color: white;
     text-align: center;
     padding: 1.5rem 0;

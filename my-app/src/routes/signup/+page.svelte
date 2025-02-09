@@ -61,7 +61,7 @@
 		margin-bottom: 5px;
 	}
 	button {
-		background-color: #876BD4;
+		background-color: #583d68;
 		font-family: 'Marcellus', serif;
 		color: white;
 		padding: 10px 20px;
@@ -86,7 +86,7 @@
 	}
 	        /* Navbar */
 			.navbar {
-        background-color: #876BD4 !important;
+        background-color: #583d68 !important;
         padding: 15px 20px;
         display: flex;
         justify-content: space-between;
@@ -117,7 +117,7 @@
         text-decoration: underline;
     }
 	footer {
-                background: #876BD4;
+                background: #583d68;
                 color: white;
                 text-align: center;
                 padding: 2rem 0;

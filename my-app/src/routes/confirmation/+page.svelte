@@ -20,7 +20,7 @@
 
  /* Navbar Styling */
 .navbar {
-    background-color: #876BD4;
+    background-color: #583d68;
     display: flex;
     align-items: center;
     width: 100%;
@@ -70,23 +70,25 @@
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         padding: 40px;
-        margin-top: 100px; /* Adjusted for navbar spacing */
         max-width: 400px;
-        width: 90%;
+        width: 100%;
         text-align: center;
     }
 
     h1 {
-        color: #5a3ea1;
+        color: #583d68;
     }
-                /* Footer */
-                footer {
-                background: #876BD4;
+    footer {
+                background: #583d68;
                 color: white;
                 text-align: center;
                 padding: 2rem 0;
                 font-size: 0.9rem;
-                margin-top: 50px;
+                margin-top: 100px;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
             }
 
             footer p {
